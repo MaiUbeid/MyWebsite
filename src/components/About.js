@@ -15,27 +15,36 @@ export default class About extends Component {
 
           <div className="nine columns main-col">
             <h2>About Me</h2>
-            <p>{resumeData.aboutme}</p>
-
-            <button>
-              <a
-                href="https://drive.google.com/file/d/1vgAWfsfS8vqfA2GNDeMwI75nDhiqGVby/view?usp=sharing"
-                target="_blank"
-              >
-                My Resume
-              </a>
-            </button>
+            <div>
+              <p>{resumeData.aboutme}</p>
+              <button className="download">
+                <a
+                  href="https://drive.google.com/file/d/1vgAWfsfS8vqfA2GNDeMwI75nDhiqGVby/view?usp=sharing"
+                  target="_blank"
+                >
+                  View Resume
+                </a>
+              </button>
+            </div>
 
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
-                <p className="address">
-                  <span>{resumeData.name}</span>
-                  <br />
-                  <span>{resumeData.address}</span>
-                  <br />
-                  <span>{resumeData.website}</span>
-                </p>
+                <ul>
+                  <li>
+                    <b>Name: </b>
+                    {resumeData.name}
+                  </li>
+                  <li>
+                    <b>Languages: </b> {resumeData.languages}
+                  </li>
+                  <li>
+                    <b>Address: </b> {resumeData.address}
+                  </li>
+                  <li>
+                    <b>Website: </b> {resumeData.website}
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

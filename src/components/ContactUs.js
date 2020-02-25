@@ -13,10 +13,7 @@ export default class ContactUs extends Component {
         </div>
         <div className="row">
           <aside className="eigth columns footer-widgets">
-            <div className="widget">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam,
-              obcaecati!
-            </div>
+            <div className="widget"></div>
           </aside>
         </div>
       </section>
