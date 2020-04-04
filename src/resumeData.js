@@ -4,7 +4,7 @@ let resumeData = {
   role: 'Software Engineer',
   linkedinId: 'maiubeid',
   skypeid: 'MaiUbeid',
-  languages: 'Arabic, English ',
+  languages: 'Arabic, English, Spanish ',
   roleDescription:
     'Passionate and creative software engineer working on front-end web development, developed responsive, clean code and up to date web applications using agile methodology with many international clients.',
   socialLinks: [
@@ -126,6 +126,24 @@ let resumeData = {
   skillsDescription: 'Your skills here',
   skills: [
     {
+      skillname: 'Reactjs'
+    },
+    {
+      skillname: 'Redux'
+    },
+    {
+      skillname: 'Nodejs'
+    },
+    {
+      skillname: 'ReactNative'
+    },
+    {
+      skillname: 'PosgreSQL'
+    },
+    {
+      skillname: 'Firebase'
+    },
+    {
       skillname: 'HTML5'
     },
     {
@@ -138,17 +156,8 @@ let resumeData = {
       skillname: 'Bootstrap'
     },
     {
-      skillname: 'Reactjs'
-    },
-    {
-      skillname: 'Nodejs'
-    },
-    {
       skillname: 'Java'
     },
-    {
-      skillname: 'ReactNative'
-    }
   ],
   portfolio: [
     {

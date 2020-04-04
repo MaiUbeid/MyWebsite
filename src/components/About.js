@@ -41,9 +41,6 @@ export default class About extends Component {
                   <li>
                     <b>Address: </b> {resumeData.address}
                   </li>
-                  <li>
-                    <b>Website: </b> {resumeData.website}
-                  </li>
                 </ul>
               </div>
             </div>
